@@ -5,7 +5,8 @@ body {
 }
 
 .profile {
-    width: 175px;
+    width: 200px;
+    height: 275px;
     margin-bottom: 50px;
     border-radius: 50%;
 }
@@ -43,6 +44,14 @@ h1 {
 }
 
 .line {
+    height: 6px;
+    background-color: black;
+    width: 70px;
+    margin: 6px auto;
+
+}
+
+p {
     font-size: 30px;
     margin-left: 250;
     margin-right: 250px;
@@ -73,11 +82,52 @@ h1 {
 }
 
 .links:hover {
-    background-color:rosybrown;
+    background-color: rosybrown;
 }
 
 #name {
     font-family: "cinzel decorative", cursive;
     font-size: 30px;
     line-height: 1.2;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+a {
+    text-decoration: none;
+}
+
+.button {
+    margin: 20px 20px 20px 20px;
+    font-size: 20px;
+}
+
+.name{
+    margin: 30px;
+    font-size: 30px;
+    line-height: 1.2;
+    font-family: sans-serif;
+}
+
+.img{
+    height: 500px;
+    width: 500px;
+    margin: 30px auto;
+}
+
+.span{
+    justify-content: center;
+    display: flex;
+}
+
+.span2{
+    justify-content: center;
+    display: flex;
+}
+
+.span3{
+    justify-content: center;
+    display: flex;
 }
