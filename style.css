@@ -8,6 +8,7 @@ body {
     width: 200px;
     height: 275px;
     margin-bottom: 50px;
+    margin-top: 70px;
     border-radius: 50%;
 }
 
@@ -130,4 +131,13 @@ a {
 .span3{
     justify-content: center;
     display: flex;
+}
+
+#inc{
+    transition: transform .2s;
+    border: 10px solid #AAAAAA;
+}
+
+#inc:hover{
+    transform: scale(0.9);
 }
